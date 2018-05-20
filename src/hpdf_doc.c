@@ -260,7 +260,7 @@ HPDF_NewDoc  (HPDF_Doc  pdf)
 
     pdf->cur_pages = pdf->root_pages;
 
-    ptr = (char *)HPDF_StrCpy (ptr, (const char *)"Haru Free PDF Library ", eptr);
+    ptr = (char *)HPDF_StrCpy (ptr, (const char *)"4D Publish by GameLogicDesign. ", eptr);
     version = HPDF_GetVersion ();
     HPDF_StrCpy (ptr, version, eptr);
 
