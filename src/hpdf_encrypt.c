@@ -193,7 +193,7 @@ static void
 MD5Transform  (HPDF_UINT32       buf[4],
                const HPDF_UINT32 in[16])
 {
-    register HPDF_UINT32 a, b, c, d;
+    HPDF_UINT32 a, b, c, d;
 
     a = buf[0];
     b = buf[1];
